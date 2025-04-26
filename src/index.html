@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Figma to Express Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <sp-theme scale="medium" color="light">
+        <div class="container">
+            <sp-heading>Figma to Express Converter</sp-heading>
+            <div class="input-section">
+                <sp-textarea id="figmaJson" placeholder="Paste your Figma JSON here..." multiline></sp-textarea>
+                <sp-button id="convertBtn" variant="primary">Convert to Express</sp-button>
+            </div>
+            <div class="preview-section">
+                <sp-heading size="S">Preview</sp-heading>
+                <div id="previewContainer"></div>
+            </div>
+            <div class="actions">
+                <sp-button id="applyBtn" variant="cta" disabled>Apply to Document</sp-button>
+            </div>
+        </div>
+    </sp-theme>
+    <script src="index.js"></script>
+</body>
+</html> 

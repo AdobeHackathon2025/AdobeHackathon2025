@@ -1,0 +1,39 @@
+.container {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 100vh;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+sp-textarea {
+    width: 100%;
+    min-height: 150px;
+}
+
+.preview-section {
+    flex: 1;
+    overflow: auto;
+    border: 1px solid var(--spectrum-global-color-gray-200);
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 0;
+}
+
+.error {
+    color: var(--spectrum-global-color-red-500);
+    padding: 8px;
+    border-radius: 4px;
+    background-color: var(--spectrum-global-color-red-100);
+} 
