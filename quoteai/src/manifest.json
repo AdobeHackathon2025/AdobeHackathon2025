@@ -1,0 +1,22 @@
+{
+    "testId": "cdc393c2-544b-44ba-8d0a-6ff1b6a929cd",
+    "name": "Quoteai",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "requirements": {
+        "apps": [
+            {
+                "name": "Express",
+                "apiVersion": 1
+            }
+        ]
+    },
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html",
+            "documentSandbox": "code.js"
+        }
+    ]
+}
