@@ -1,0 +1,22 @@
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+
+
+sudo apt install nodejs -y
+
+sudo n latest
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+nvm install 18
+nvm use 18
+nvm alias default 18
+
+[23]
+
+mkdir my-project && cd my-project
+npm init -y
+-------------------------------------------------------------------
+npm install express

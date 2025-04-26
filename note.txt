@@ -1,0 +1,84 @@
+Need to install the following packages:
+@adobe/create-ccweb-add-on@3.0.0
+Ok to proceed? (y) y
+
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated sudo-prompt@8.2.5: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+
+This tool collects and sends analytics to help Adobe improve its products.
+✔ Do you want to allow sending analytics to Adobe › No, don't send analytics to Adobe
+
+Creating a new Add-on ...
+This may take a minute ...
+
+✔ Please select a template which you want to scaffold the Add-on project with › [react-javascript]: Get started with Add-on development using React and JavaScript
+✔ Do you want to include document sandbox runtime? › Yes
+
+Installing dev dependencies ...
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated sudo-prompt@8.2.5: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+
+added 235 packages, and audited 236 packages in 8s
+
+43 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Scaffolding project from template: react-javascript-with-document-sandbox ...
+
+Installing template dev dependencies ...
+
+added 331 packages, and audited 567 packages in 35s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Installing template dependencies ...
+
+up to date, audited 567 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+The Add-on requires a trusted SSL certificate in order to run on https://localhost
+✔ How do you want to set up your SSL certificate › Automatically, set it up for me
+
+Setting up self-signed SSL certificate ...
+This is only a one time step and may require you to enter your system's password,
+so that the SSL certificate can be added to your system's trusted certificate path.
+[If this takes longer than expected, please break and retry]
+[sudo] password for pc2:
+rm: cannot remove '/usr/local/share/ca-certificates/devcert.crt': No such file or directory
+rehash: warning: skipping ca-certificates.crt,it does not contain exactly one certificate or CRL
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+SSL setup complete!
+You can find the SSL certificate in /home/pc2/.config/Adobe/CCWebAddOn/devcert/domains/localhost.
+
+Success! Created my-addon at /home/pc2/Desktop/AdobeExpressHackathon/my-addon.
+Inside this directory, you can run the following commands:
+
+  npm run build
+    Builds the Add-on.
+  npm run start
+    Starts the development server and hosts the Add-on.
+
+We suggest that you begin by typing:
+
+  cd my-addon
+  npm run build
+  npm run start
+
+So what will you create today?
